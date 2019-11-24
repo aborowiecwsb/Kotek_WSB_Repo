@@ -13,13 +13,16 @@ namespace KotekConsole
 
             while (true)
             {
-                Console.WriteLine("1. Dodaj liczby");
-                Console.WriteLine("2. Odejmij liczby");
-                Console.WriteLine("3. * liczby");
-                Console.WriteLine("4. / liczby");
-                Console.WriteLine("5. Wyjscie");
-
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("1. Dodaj liczby");
+                Console.WriteLine("4. / liczby");
+                Console.WriteLine("2. Odejmij liczby");
+                Console.WriteLine("5. Wyjscie");
+                Console.WriteLine("3. * liczby");
+
+                int a = Convert.ToInt32(Console.ReadLine());
+
+
             }
 
         }
